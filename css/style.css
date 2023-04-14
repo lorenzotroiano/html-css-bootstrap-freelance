@@ -9,6 +9,12 @@ a {
 }
 
 
+h2 {
+    text-align: center;
+}
+
+
+
 .fa-bars {
    /* display: none;  */
     border: 1px solid black;
@@ -23,6 +29,7 @@ a {
 /* stile contenuto hero */
 .container > img {
     max-width: 200px;
+ 
 }
 
 .hero {
@@ -53,9 +60,9 @@ a {
 
 /* stile about */
 
-
-
-
+#about_center {
+    text-align: center;
+}
 
 
 
@@ -86,4 +93,10 @@ nav {
 
 .portfolio {
     background-color: darkorange;
+}
+
+
+.about {
+    background-color: gold;
+   min-height: 50px;
 }
